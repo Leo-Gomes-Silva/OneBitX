@@ -47,6 +47,11 @@ header {
   padding-top: 200px;
 }
 
+.logo {
+  width: 200px;
+  height: 35px;
+}
+
 .img-gif {
   max-width: 10%;
 }
@@ -62,11 +67,23 @@ footer {
 .footer-item {
   color: white;
   margin-right: 20px;
+  cursor: pointer;
 }
 
 .footer-item-copy {
   color: gray;
   margin-right: 20px;
+}
+
+.short-title {
+  max-width: 550px;
+}
+
+@media (max-width: 359px) {
+  .logo {
+    width: 120px;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
