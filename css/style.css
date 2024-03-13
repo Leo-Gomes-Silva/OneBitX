@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
 body {
   background-color: black;
 }
@@ -48,8 +49,9 @@ header {
 }
 
 .logo {
-  width: 200px;
-  height: 35px;
+  width: 240px;
+  margin-left: -10px;
+  margin-right: 20px;
 }
 
 .img-gif {
@@ -84,6 +86,28 @@ footer {
     width: 120px;
     height: auto;
   }
+}
+.container05 {
+  background-image: url(../img/falcon9/01.jpg);
+}
+
+.short-title-falcon {
+  font-size: 100px;
+  font-family: "Rubik", sans-serif;
+}
+
+.short-number-falcon {
+  font-size: 80px;
+}
+
+.container-title {
+  padding-top: 200px;
+}
+
+.container-stats {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
