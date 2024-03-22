@@ -1,0 +1,63 @@
+.container13 {
+  background-image: url(../img/humanFlight/01.jpg);
+}
+.container14 {
+  background-image: url(../img/humanFlight/02.jpg);
+}
+.container15 {
+  background-image: url(../img/humanFlight/03.jpg);
+}
+.container16 {
+  background-image: url(../img/humanFlight/04.jpg);
+}
+.container17 {
+  background-image: url(../img/humanFlight/05.jpg);
+}
+.container-basic-right {
+  width: fit-content;
+  padding-top: 15%;
+  margin-left: 55%;
+}
+.container-basic-left {
+  width: fit-content;
+  padding-top: 15%;
+  margin-left: 5%;
+}
+.short-title-spaceflight {
+  font-size: 100px;
+}
+.email-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  .email-text {
+    font-size: larger;
+    text-align: center;
+    width: 60%;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 426px) {
+  .container-basic-right {
+    width: auto;
+    margin-left: 40%;
+  }
+  .short-title-spaceflight {
+    font-size: 50px;
+  }
+  .container-basic-left {
+    width: auto;
+  }
+}
+@media (max-width: 320px) {
+  .container-basic-right {
+    margin-left: auto;
+  }
+  .short-title-spaceflight {
+    font-size: 36px;
+  }
+}
